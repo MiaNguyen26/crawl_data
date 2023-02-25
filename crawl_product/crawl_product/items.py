@@ -6,10 +6,7 @@
 import scrapy
 
 
-class CrawlRecipeItem(scrapy.Item):
+class CrawlProductItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    r_url = scrapy.Field()
-    r_name = scrapy.Field()
-    r_content = scrapy.Field()
-    # pass
+    pass
